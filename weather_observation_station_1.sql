@@ -2,7 +2,7 @@
  *      HACKERRANK WEATHER OBSERVATION STATION 1 CHALLENGE      *
  *                                                              *
  * Problem Statement                                            *
- * Query a list of CITY and STATE from the STATION table.       *                                                      *
+ * Query a list of CITY and STATE from the STATION table.       *                                                      
  *                                                              *
  * Input: Below is the Data Structure of the table              *
  *                                                              *
