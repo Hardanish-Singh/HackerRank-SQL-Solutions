@@ -3,7 +3,7 @@
  *                                                              *
  * Problem Statement                                            *
  * Query all attributes of every Japanese city in the CITY      *
- * table. The COUNTRYCODE for Japan is JPN.                     *                                                      *                                               
+ * table. The COUNTRYCODE for Japan is JPN.                     *                                                                        
  *                                                              *
  * Input: Below is the Data Structure of the table              *
  *                                                              *
