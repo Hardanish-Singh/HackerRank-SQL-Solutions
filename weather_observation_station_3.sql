@@ -4,7 +4,7 @@
  * Problem Statement                                            *
  * Query a list of CITY names from STATION with even ID numbers *
  * only. You may print the results in any order, but must       *
- * exclude duplicates from your answer.                         *                                                      *
+ * exclude duplicates from your answer.                         *                                                      
  *                                                              *
  * Input: Below is the Data Structure of the table              *
  *                                                              *
