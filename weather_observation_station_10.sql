@@ -1,5 +1,5 @@
 /****************************************************************
- *      HACKERRANK WEATHER OBSERVATION STATION 9 CHALLENGE      *
+ *      HACKERRANK WEATHER OBSERVATION STATION 10 CHALLENGE     *
  *                                                              *
  * Problem Statement                                            *
  * Query the list of CITY names from STATION that do not end    *
