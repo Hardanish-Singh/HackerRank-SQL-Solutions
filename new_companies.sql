@@ -5,15 +5,15 @@
  * Amber's conglomerate corporation just acquired some new 	*
  * companies. Each of the companies follows this hierarchy: 	*
  *                                                              *
- * 				FOUNDER				*
- *  				   ↓                            *
- * 				LEAD MANAGER                    *
- *			           ↓				*
- * 				SENIOR MANAGER			*
- *  			           ↓				*
- * 				MANAGER				*
- *				   ↓				*
- * 				EMPLOYEE			*
+ * 			FOUNDER					*
+ *  		           ↓                            	*
+ * 			LEAD MANAGER                    	*
+ *			   ↓					*
+ * 			SENIOR MANAGER				*
+ *  			   ↓					*
+ * 			MANAGER					*
+ *			   ↓					*
+ * 			EMPLOYEE				*
  *                                                              *
  * Given the table schemas below, write a query to print the 	*
  * company_code, founder name, total number of lead managers, 	*
