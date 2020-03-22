@@ -3,11 +3,11 @@
  *                                                              *
  * Problem Statement                                            *
  * Pivot the Occupation column in OCCUPATIONS so that each Name *
- * is sorted alphabetically and displayed underneath its 		*
+ * is sorted alphabetically and displayed underneath its 	*
  * corresponding Occupation. The output column headers should be* 
  * Doctor, Professor, Singer, and Actor, respectively           *
  * Note: Print NULL when there are no more names corresponding 	*
- * to an occupation.											*
+ * to an occupation.						*
  *                                                              *
  * Input: Below is the Data Structure of the table              *
  *                                                              *
@@ -30,13 +30,13 @@
 SET @rowcount_doctor 	=	0;
 SET @rowcount_professor =	0;
 SET @rowcount_singer	=	0;
-SET @rowcount_actor		=	0;
+SET @rowcount_actor	=	0;
 
 SELECT
-		MAX(name_doctor) 	AS  name_doctor,
-		MAX(name_professor) AS 	name_professor, 
-		MAX(name_singer) 	AS 	name_singer, 
-		MAX(name_actor) 	AS 	name_actor
+	MAX(name_doctor) 	AS  	name_doctor,
+	MAX(name_professor) 	AS 	name_professor, 
+	MAX(name_singer) 	AS 	name_singer, 
+	MAX(name_actor) 	AS 	name_actor
 FROM
 (
 	SELECT 
