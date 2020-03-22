@@ -43,7 +43,7 @@ FROM
 (
     SELECT 
             CONCAT(name, '(', SUBSTRING(occupation, 1, 1), ')') AS value,
-            name AS orderingCriteriaOne,
+            NULL AS orderingCriteriaOne,
             NULL AS orderingCriteriaTwo
     FROM 
             occupations
