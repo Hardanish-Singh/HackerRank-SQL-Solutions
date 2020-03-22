@@ -17,7 +17,7 @@
  * Where [occupation_count] is the number of occurrences of an  *
  * occupation in OCCUPATIONS and [occupation] is the lowercase  *
  * occupation name. If more than one Occupation has the same    *
- * [occupation_count], they should be ordered alphabetically.   *                                                             *
+ * [occupation_count], they should be ordered alphabetically.   *                                                
  *                                                              *
  * Input: Below is the Data Structure of the table              *
  *                                                              *
