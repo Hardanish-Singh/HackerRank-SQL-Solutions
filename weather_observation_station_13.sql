@@ -1,5 +1,5 @@
 /****************************************************************
- *      HACKERRANK WEATHER OBSERVATION STATION 2 CHALLENGE      *
+ *      HACKERRANK WEATHER OBSERVATION STATION 13 CHALLENGE     *
  *                                                              *
  * Problem Statement                                            *
  * Query the sum of Northern Latitudes (LAT_N) from STATION     *
