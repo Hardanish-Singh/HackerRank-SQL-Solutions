@@ -69,6 +69,3 @@ FROM
         ORDER BY x1.lat_n
     ) AS X
 ) AS XX WHERE row_number = FLOOR(vals)
-
-
-
