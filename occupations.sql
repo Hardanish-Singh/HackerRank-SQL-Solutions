@@ -40,54 +40,50 @@ SELECT
 FROM
 (
 	SELECT 
-			CASE 
-				WHEN
-					occupations.occupation = 'Doctor'
-						THEN
-							@rowcount_doctor  :=  @rowcount_doctor + 1
-				WHEN
-					occupations.occupation = 'Professor'
-						THEN
-							@rowcount_professor := @rowcount_professor + 1 
-				WHEN
-					occupations.occupation = 'Singer'
-						THEN
-							@rowcount_singer := @rowcount_singer + 1 
-				WHEN
-					occupations.occupation = 'Actor'
-						THEN
-							@rowcount_actor := @rowcount_actor + 1 
-			END AS row_count_variable,
-			CASE 
-				WHEN 
-					occupations.occupation = 'Doctor'
-						THEN 
-							name
-			END AS name_doctor,
-			CASE 
-				WHEN 
-					occupations.occupation = 'Professor'
-						THEN 
-							name
-			END AS name_professor,
-			CASE 
-				WHEN 
-					occupations.occupation = 'Singer'
-						THEN 
-							name
-			END AS name_singer,
-			CASE 
-				WHEN 
-					occupations.occupation = 'Actor'
-						THEN 
-							name
-			END AS name_actor
+		CASE 
+			WHEN
+				occupations.occupation = 'Doctor'
+					THEN
+						@rowcount_doctor  :=  @rowcount_doctor + 1
+			WHEN
+				occupations.occupation = 'Professor'
+					THEN
+						@rowcount_professor := @rowcount_professor + 1 
+			WHEN
+				occupations.occupation = 'Singer'
+					THEN
+						@rowcount_singer := @rowcount_singer + 1 
+			WHEN
+				occupations.occupation = 'Actor'
+					THEN
+						@rowcount_actor := @rowcount_actor + 1 
+		END AS row_count_variable,
+		CASE 
+			WHEN 
+				occupations.occupation = 'Doctor'
+					THEN 
+						name
+		END AS name_doctor,
+		CASE 
+			WHEN 
+				occupations.occupation = 'Professor'
+					THEN 
+						name
+		END AS name_professor,
+		CASE 
+			WHEN 
+				occupations.occupation = 'Singer'
+					THEN 
+						name
+		END AS name_singer,
+		CASE 
+			WHEN 
+				occupations.occupation = 'Actor'
+					THEN 
+						name
+		END AS name_actor
 	FROM 
 			occupations
 	ORDER BY name
 ) AS x
-GROUP BY x.row_count_variable
-                    
-                    
-                    
-            
+GROUP BY x.row_count_variable     
