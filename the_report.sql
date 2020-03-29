@@ -78,27 +78,27 @@ ORDER BY x.grade DESC, x.student_name
 */
 
 SELECT
-    CASE
-                WHEN 
-                            grades < 8 
-                                    THEN 'NULL'
-                ELSE
-                            name
-    END AS new_name,
-    grades,
-    marks
+        CASE
+                    WHEN 
+                                grades < 8 
+                                        THEN 'NULL'
+                    ELSE
+                                name
+        END AS new_name,
+        grades,
+        marks
 FROM
 (
         SELECT 
-                        name,
-                        marks,
-                        (
-                            SELECT 
-                                            grade 
-                            FROM 
-                                            grades 
-                            WHERE marks BETWEEN min_mark AND max_mark
-                        )AS grades
+                name,
+                marks,
+                (
+                    SELECT 
+                            grade 
+                    FROM 
+                            grades 
+                    WHERE marks BETWEEN min_mark AND max_mark
+                )AS grades
         FROM 
                         students
         ORDER BY grades DESC, name
