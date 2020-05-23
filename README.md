@@ -1,1 +1,1 @@
-Solutions for all challenges at hackerrank.com If you are learning SQL at HackerRank, it is a great tool to test your knowledge of the SQL. If you are not sure how to solve any of the problems then check my solutions for each of the hackerrank challenges 
+Solutions for all challenges at hackerrank.com If you are learning SQL at HackerRank, it is a great tool to test your knowledge of the SQL. If you are not sure how to solve any of the problems then check my solutions for each of the hackerrank challenges
