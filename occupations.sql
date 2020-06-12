@@ -40,7 +40,7 @@ SELECT
 FROM
 (
 	SELECT 
-		CASE 
+		CASE
 			WHEN
 				occupations.occupation = 'Doctor'
 					THEN
