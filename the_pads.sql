@@ -21,7 +21,7 @@
  *                                                              *
  * Input: Below is the Data Structure of the table              *
  *                                                              *
- *                      OCCUPATIONS                             * 
+ *                      OCCUPATIONS                             *
  *          ______________________________                      *
  *         | Column         | Type        |                     *
  *          ______________________________                      *
