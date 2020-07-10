@@ -3,7 +3,7 @@
  *                                                              *
  * Problem Statement                                            *
  * Query the Western Longitude (LONG_W)where the smallest       * 
- * Northern Latitude (LAT_N) in STATION is greater than 38.7780 * 
+ * Northern Latitude (LAT_N) in STATION is greater than 38.7780 *
  * Truncate your answer to 4 decimal places.                    *
  *                                                              *
  * Input: Below is the Data Structure of the table              *
