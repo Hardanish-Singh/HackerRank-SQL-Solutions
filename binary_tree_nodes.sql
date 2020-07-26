@@ -16,7 +16,7 @@
  *                                                              *
  * Input: Below is the Data Structure of the table              *
  *                                                              *
- *                      BST                                     * 
+ *                      BST                                     *
  *          ______________________________                      *
  *         | Field         | Type         |                     *
  *          ______________________________                      *
