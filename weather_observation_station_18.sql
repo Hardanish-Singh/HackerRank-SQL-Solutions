@@ -17,7 +17,7 @@
  *                                                              *
  * Input: Below is the Data Structure of the table              *
  *                                                              *
- *                      STATION                                 * 
+ *                      STATION                                 *
  *          ______________________________                      *
  *         | Field         | Type         |                     *
  *          ______________________________                      *
